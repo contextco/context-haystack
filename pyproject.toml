@@ -8,6 +8,7 @@ keywords = []
 authors = [
   { name = "Alec Barber", email = "alec@context.ai" },
   { name = "Alex Gamble", email = "alex@context.ai" },
+  { name = "Amisha Singh", email = "amisha@context.ai" }
 ]
 dependencies = [
   "haystack-ai",
@@ -16,5 +17,9 @@ dependencies = [
 
 [project.urls]
 Documentation = "https://docs.context.ai"
-Issues = "https://github.com/contextco/context-py/issues"
-Source = "https://github.com/contextco/context-py"
+Issues = "https://github.com/contextco/context-haystack/issues"
+Source = "https://github.com/contextco/context-haystack"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
